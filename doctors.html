@@ -21,47 +21,69 @@
 <body class="container">
     <div class="mt-5 pt-3">
         <a href="clinic.html">
-        <img  class="rounded mx-auto d-block " src="./img/logo blk.png" alt=" " width="100px" height="50px">
+            <img class="rounded mx-auto d-block " src="./img/logo blk.png" alt=" " width="100px" height="50px">
         </a>
-      </div>
+    </div>
     <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
-            <h4 class="text-center  fw-bolder pt-5 ">Hello Clinic, Welcome to Health +</h4>
+            <h4 class="text-center  fw-bolder pt-5 "> Welcome to Health +</h4>
             <div class="row p-5">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"></label>
-                    <input type="search" class="form-control" id="exampleFormControlInput1" placeholder="Search Doctors">
-                    <br>
-                    <button class="btn btn-secondary d-block">Filter</button>
-                </div>
-                <div class="col-sm-12">
-                    <div class="card shadow border-success p-3 overflow-auto" style="max-height: 400px;">
-                        	<a href="#" class="lead fw-bold"> Dr. T.J.L Victor, MBBS,MD(General Medicine</a>
-                            <a href="#" class="lead fw-bold">Dr. Mathew Olakkengil, MBBS, MD(General Medicine)</a>
-                            <a href="#" class="lead fw-bold">Dr. V.E.A.Shakeel, MD Physician,DNB (Family Medicine)</a>
-                            <a href="#" class="lead fw-bold">Dr. Savio Sebastian, MS(General Surgery)</a>
-                            <a href="#" class="lead fw-bold">Dr. Shameem Majeed MBBS, MD(Paediatrics)</a>
-                            <a href="#" class="lead fw-bold">Dr Sathish Chandran, MBBS, MD(Paediatrics)</a>
-                            <a href="#" class="lead fw-bold">Dr. Siju Francis, D Ortho, MBBSb, D.Ortho (Paediatrics)</a>
-                            <a href="#" class="lead fw-bold">Dr. Deepa Thomas MBBS, MS(ENT)</a>
-                            <a href="#" class="lead fw-bold">Dr. Rajiv Zachariah, MBBS,MD,DM(Cardiology)</a>
-                            <a href="#" class="lead fw-bold">Dr. Thomas John, MBBS, MD, DM ( Cardiology)</a>
-                            <a href="#" class="lead fw-bold">Dr B Raghunath, MBBS, MD, DM(Neurology)</a>
-                            <a href="#" class="lead fw-bold">Dr. Devaprasad, MBBS, Mch(Neurosurgery)</a>
-                            <a href="#" class="lead fw-bold">Dr.E Mohandas, MBBS, M.D(Psych)</a>
-                            <a href="#" class="lead fw-bold">Dr.JO Ignatious  B.Sc, BDS</a>
-                            <a href="#" class="lead fw-bold">Dr.Neetha MBBS, MD(DVL) (Dermatologist)</a>
-                    <br>                 
-                </div>
+
+                <div class="col">
+                    <div class="mb-3 d-block">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="search" class="form-control  border-2  border-success" id="exampleFormControlInput1"
+                            placeholder="Search Doctors">
+                        <br>
+                     <button class="text-center btn btn-dark btn-block">Search</button>
                     </div>
-                    <a href="index.html" class="btn btn-dark"> Log out</a>
+                   
+                       <div>
+                        <h3 class="text-center mt-5 mb-3">Looking for a Doctor?</h3>
+                       </div>
+
+                    <div class="text-center mt-3">
+                        <div class="dropdown">
+                            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Doctors
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a href="#" class="dropdown-item"> Dr. T.J.L Victor, MBBS,MD(General Medicine</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr. Mathew Olakkengil, MBBS, MD(General Medicine)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr. V.E.A.Shakeel, MD Physician,DNB (Family Medicine)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr. Savio Sebastian, MS(General Surgery)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr. Shameem Majeed MBBS, MD(Paediatrics)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr Sathish Chandran, MBBS, MD(Paediatrics)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr. Siju Francis, D Ortho, MBBSb, D.Ortho
+                                        (Paediatrics)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr. Deepa Thomas MBBS, MS(ENT)</a></li>
+                                <!-- <li> <a href="#" class="dropdown-item">Dr. Rajiv Zachariah, MBBS,MD,DM(Cardiology)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr. Thomas John, MBBS, MD, DM ( Cardiology)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr B Raghunath, MBBS, MD, DM(Neurology)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr. Devaprasad, MBBS, Mch(Neurosurgery)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr.E Mohandas, MBBS, M.D(Psych)</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr.JO Ignatious B.Sc, BDS</a></li>
+                                <li> <a href="#" class="dropdown-item">Dr.Neetha MBBS, MD(DVL) (Dermatologist)</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+    
+
+
+                    <div class="col-sm-12" style="margin-top: 200px ;">
+                        <a href="index.html" class="btn btn-dark"> Log out</a> <a href="" data-bs-toggle="modal"
+                            data-bs-target="#Settings" class="btn btn-dark float-end"> <i class="fa fa-cog"></i></a>
+                            <a href="clinic.html"  class="mx-1 btn btn-dark float-end"> <i class="fa fa-arrow-left"></i></a>
+                    </div>
                 </div>
+            </div>
         </div>
+        <div class="col-3"></div>
     </div>
 
-   
-   
+
 
 
 
@@ -77,10 +99,10 @@
         <span class="text-dark ">2022 Copyright - BSH - All Right Reserved </span>
     </footer>
 
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
 
 </body>
 
 </html>
+

@@ -27,63 +27,61 @@
     <div class="row">
         <div class="col-3"></div>
         <div class="col-6">
-            <h4 class="text-center  fw-bolder pt-5 ">Hello Clinic, Welcome to Health +</h4>
+            <h4 class="text-center  fw-bolder pt-5 "> Welcome to Health +</h4>
             <div class="row p-5">
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"></label>
-                    <input type="search" class="form-control" id="exampleFormControlInput1" placeholder="Search Departments">
-                    <br>
-                    <button class="btn btn-secondary d-block">Filter</button>
-                </div>
-                <div class="col-sm-12">
-                    <div class="card shadow border-success p-3 overflow-auto" style="max-height: 400px;">
-                        	<a href="doctors.html" class="lead fw-bold">Paediatrics and Neonatology</a>
-                            <a href="doctors.html" class="lead fw-bold">Gynacology , Obstetrics and Infertinity</a>
-                            <a href="doctors.html" class="lead fw-bold">Pathology</a>
-                            <a href="doctors.html" class="lead fw-bold">Interventional Cardiology</a>
-                            <a href="doctors.html" class="lead fw-bold">Dermatology</a>
-                            <a href="doctors.html" class="lead fw-bold">Physiotherapy</a>
-                            <a href="doctors.html" class="lead fw-bold">General Dentistry and Maxillofacial Surgery</a>
-                            <a href="doctors.html" class="lead fw-bold">Orthopedics and Sports Medicine</a>
-                            <a href="doctors.html" class="lead fw-bold">Radiology</a>
-                            <a href="doctors.html" class="lead fw-bold">General Surgery</a>
-                            <a href="doctors.html" class="lead fw-bold">Neurology</a>
-                            <a href="doctors.html" class="lead fw-bold">Oncology</a>
-                            <a href="doctors.html" class="lead fw-bold">Opthalmology</a>
-                            <a href="doctors.html" class="lead fw-bold">Psychiatry</a>
-                            <a href="doctors.html" class="lead fw-bold">Anesthesiology</a>
-                    <br>                 
-                </div>
+
+                <div class="col">
+                    <div class="mb-3 d-block">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="search" class="form-control  border-2  border-success" id="exampleFormControlInput1"
+                            placeholder="Search Departments">
+                        <br>
+                     <button class="text-center btn btn-dark btn-block">Search</button>
                     </div>
-                    <a href="index.html" class="btn btn-dark"> Log out</a>
+                   
+                       <div>
+                        <h3 class="text-center mt-5 mb-3">Can't remember?</h3>
+                       </div>
+
+                    <div class="text-center mt-3">
+                        <div class="dropdown">
+                            <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Departments
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="doctors.html">Paediatrics and Neonatology</a></li>
+                                <li><a class="dropdown-item" href="doctors.html">Gynacology, Obstetrics and Infertinity</a></li>
+                                <li><a class="dropdown-item" href="doctors.html">Pathology</a></li>
+                                <li><a class="dropdown-item" href="doctors.html">Interventional Cardiology</a></li>
+                                <li><a class="dropdown-item" href="doctors.html">Dermatology</a></li>
+                                <li><a class="dropdown-item" href="doctors.html">Physiotherapy</a></li>
+                                <li><a class="dropdown-item" href="doctors.html">Orthopedics and Sports Medicine</a></li>
+                                <li><a class="dropdown-item" href="doctors.html">Anesthesiology</a></li>
+                            </ul>
+                        </div>
+                    </div>
+    
+
+
+                    <div class="col-sm-12" style="margin-top: 200px ;">
+                        <a href="index.html" class="btn btn-dark"> Log out</a> <a href="" data-bs-toggle="modal"
+                            data-bs-target="#Settings" class="btn btn-dark float-end"> <i class="fa fa-cog"></i></a>
+                            <a href="clinic.html"  class="mx-1 btn btn-dark float-end"> <i class="fa fa-arrow-left"></i></a>
+                    </div>
                 </div>
+            </div>
         </div>
+        <div class="col-3"></div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
     <footer class="fixed-bottom text-center m-3">
         <span class="text-dark ">2022 Copyright - BSH - All Right Reserved </span>
     </footer>
-
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.js"></script>
 
 </body>
 
