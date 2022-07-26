@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <title>Login | BSH </title>
+  <style>
+    a {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body class="container bg-grey">
+
+
+
+  <main>
+    <div class="mt-5 pt-5">
+      <img class="rounded mx-auto d-block " src="./img/logo blk.png" alt=" " width="100px" height="50px">
+    </div>
+
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <h4 class="text-center  fw-bolder pt-5 ">Welcome to the Health <span class="fw-bolder">+</span></h4>
+        <span class="text-center lead">Access quality Healthcare from your home, with over 10,000 pharmacies,
+          Clinics and hospitals at the comfort of your home. </span>
+        <div class="row p-5">
+          <div class="col-6">
+            <div class="card shadow border-success">
+              <div class="card-img text-center p-5">
+                <img src="./img/person.svg" class="img-fluid" alt="" height="100px" width="100px">
+              </div>
+              <div class="card-body">
+                <a href="" data-bs-toggle="modal" data-bs-target="#Patient" class="btn btn-success d-block">Patient</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card shadow border-success">
+              <div class="card-img text-center p-5">
+                <img src="./img/clinic.svg" class="img-fluid" alt="" height="100px" width="100px">
+              </div>
+              <div class="card-body">
+                <a href="" data-bs-toggle="modal" data-bs-target="#Clinic" class="btn btn-success d-block">Clinic</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="col-3"></div>
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--Patient Modal -->
+  <div class="modal fade" id="Patient" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="PatientLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="Patient">Login as a Patient</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" method="POST" class="row g-4">
+            <div class="col-12">
+              <label>Username<span class="text-danger">*</span></label>
+              <div class="input-group">
+                <div class="input-group-text"><i class="fa fa-user"></i></div>
+                <input type="text" name="userName" class="form-control" placeholder="Enter Username">
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label>Password<span class="text-danger">*</span></label>
+              <div class="input-group">
+                <div class="input-group-text"><i class="fa fa-key"></i></div>
+                <input type="password" name="userPwd" class="form-control" placeholder="Enter Password">
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+
+              <a href="signup.html">Create New Account</a>
+              <a href="reset.html" class="text-primary float-end">Reset Password</a>
+            </div>
+
+
+            <div class="col-12 d-grid">
+              <!-- <button type="submit" class="btn btn-primary ">login</button> -->
+              <a href="patient.html" class="btn btn-primary d-block">Login</a>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Clinic Modal -->
+  <div class="modal fade" id="Clinic" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="ClinicLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ClinicLabel">Login as a Clinic</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="" method="POST" class="row g-4">
+            <div class="col-12">
+              <label>Username<span class="text-danger">*</span></label>
+              <div class="input-group">
+                <div class="input-group-text"><i class="fa fa-user"></i></div>
+                <input type="text" name="userName" class="form-control" placeholder="Enter Username">
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label>Password<span class="text-danger">*</span></label>
+              <div class="input-group">
+                <div class="input-group-text"><i class="fa fa-key"></i></div>
+                <input type="password" name="userPwd" class="form-control" placeholder="Enter Password">
+              </div>
+            </div>
+
+            <div class="col-sm-12">
+
+              <a href="signup.html">Create New Account</a>
+              <a href="reset.html" class="text-primary float-end">Reset Password</a>
+            </div>
+
+
+            <div class="col-12 d-grid">
+              <!-- <button type="submit" class="btn btn-primary ">login</button> -->
+              <a href="clinic.html" class="btn btn-primary d-block">Login</a>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <footer class="fixed-bottom text-center m-3">
+    <span class="text-dark ">2022 Copyright - BSH - All Right Reserved </span>
+  </footer>
+  
+  
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>

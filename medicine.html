@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <title>Patient Dashboard | BSH </title>
+
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="mt-5 pt-5">
+        <h1 class="text-center fw-bold">Welcome to Health <span class="fw-bolder text-success ">+</span></h1>
+        <!-- <img class="rounded mx-auto d-block " src="./img/logo blk.png" alt=" " width="100px" height="50px"> -->
+    </div>
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <h4 class="text-center  pt-2 ">Hello Patient</h4>
+            <div class="row p-5 text-center">
+                <div class="col-12">
+                    <span class=" lead p-2">Drugs Available</span>
+
+                    <div class="row mt-4">
+                        <div class="col-sm-3">
+                            <div class="card shadow border-success">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-success d-block">Pill A</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-success">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-success d-block">Pill B</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-success">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-success d-block">Pill C</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-success">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-success d-block">Pill D</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="row mt-2">
+                        <div class="col-sm-3">
+                            <div class="card shadow border-warning">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-warning d-block">Syrup A</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-warning">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-warning d-block">Syrup B </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-warning">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-warning d-block">Syrup C</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-warning">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-warning d-block">Syrup D </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="row mt-2">
+                        <div class="col-sm-3">
+                            <div class="card shadow border-danger">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-danger d-block">Vaccine A</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-danger">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-danger d-block">Vaccine B </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-danger">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-danger d-block">Vaccine C</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card shadow border-danger">
+                                <div class="card-body">
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#search" class="btn btn-danger d-block">Vaccine D </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="row">
+                    <div class="col-sm-12 mt-3">
+                        <a href="index.html" class="btn btn-dark float-start"> Log out</a> <a href="" data-bs-toggle="modal"
+                            data-bs-target="#Settings" class="btn btn-dark float-end"> <i class="fa fa-cog"></i></a>
+                            <a href="patient.html"  class="mx-1 btn btn-dark float-end"> <i class="fa fa-arrow-left"></i></a>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Clinic Modal -->
+    <div class="modal fade" id="Settings" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="SettingsLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- LIGHT SWITCH -->
+                    <div class="d-block">
+
+                        <div class="form-check form-switch ms-3 mt-3 me-3">
+
+                            <label class="form-check-label ms-3" for="lightSwitch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="grey"
+                                    class="bi b-lock-fill" viewBox="0 0 20 20">
+                                    <path
+                                        d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
+                                    />
+                                </svg>
+                            </label>
+                            <span class="pl-2 text-black-50">Privacy mode</span>
+
+                            <input class="form-check-input" type="checkbox" id="lightSwitch" />
+                        </div>
+                        <div class=" ms-3 mt-3 me-3">
+                            <a href="" class="pl-2 text-black-50">Change Password</a> <br>
+                                <a href="" class="pl-2 text-black-50">Change Email Account</a> <br>
+                                    <a href="" class="pl-2 text-black-50">Payment Methods</a> <br>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="fixed-bottom text-center m-3">
+            <span class="text-dark ">2022 Copyright - BSH - All Right Reserved </span>
+        </footer>
+
+        <script src="./js/bootstrap.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/switch.js"></script>
+
+</body>
+
+</html>
